@@ -77,7 +77,7 @@
           <li>
             <Checkbox name="task" value="reports" v-model="tasksCheckbox" />
             <span class="task-name">Sales Reports</span>
-            <i class="pi pi-chart-bar" />
+
           </li>
           <li>
             <Checkbox name="task" value="invoices" v-model="tasksCheckbox" />
@@ -246,7 +246,7 @@
     </div>
     <div class="p-col-12 p-lg-6">
       <div class="card">
-        <Chart type="line" :data="lineData" />
+
       </div>
     </div>
   </div>
@@ -265,7 +265,7 @@ import InputText from 'primevue/inputtext';
 import Button from 'primevue/button';
 import Column from 'primevue/column';
 import DataTable from 'primevue/datatable';
-import Chart from 'primevue/chart';
+
 import ProgressBar from 'primevue/progressbar';
 
 export default {
@@ -278,7 +278,6 @@ export default {
     Button,
     Column,
     DataTable,
-    Chart,
   },
   data() {
     return {
