@@ -28,5 +28,5 @@ export default ({ onSignIn }) => {
         </BrowserRouter>
       </StylesProvider>
     </div>
-  )
+  );
 };
