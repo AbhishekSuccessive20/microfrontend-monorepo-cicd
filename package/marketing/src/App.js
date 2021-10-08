@@ -9,7 +9,7 @@ import Pricing from './components/Pricing';
 import Landing from './components/Landing';
 
 const generateClassName = createGenerateClassName({
-  productionPrefix: 'au',
+  productionPrefix: 'ma',
 });
 
 export default () => {
