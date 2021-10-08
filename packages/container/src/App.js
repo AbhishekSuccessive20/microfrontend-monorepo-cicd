@@ -20,7 +20,7 @@ const generateClassName = createGenerateClassName({
 const history = createBrowserHistory();
 
 export default () => {
-  const [isSignedIn, setIsSignedIn] = useState(false);
+  const [isSignedIn, setIsSignedIn] = useState(false)
 
   useEffect(() => {
     if (isSignedIn) {
